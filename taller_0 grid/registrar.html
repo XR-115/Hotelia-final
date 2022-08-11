@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Húesped</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="shortcut icon" href="resources/img/hotelia campana.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-registro">
+     <!------------------------------------------------------------------------ BARRA DE NAVEGACIÓN ------------------------------------------------>
+
+     <nav>
+        <div class="logo">
+            <img class="nav-icono" src="resources/img/Hotelia horizontal blanco.svg">
+            <i class="fa-solid fa-bars" id="icono-menu"></i>
+        </div>
+        
+        <div class="menu" id="menu">
+            <a href="indexGRID.html" class="item1">Inicio</a>
+            <a href="dashboard.html" class="item2">Dashboard</a>
+        </div>
+    </nav>
+
+
+    <div class="contenedor-registro">
+        <div class="titulo-registro">
+            <img src="resources/img/Hotelia horizontal blanco.svg" alt="">
+            <h1>Eres más que bienvenido</h1>
+        </div>
+
+        <!--------------------------------------------------------- FORMULARIO DE REGISTRO HÚESPED ------------------------------------------------------------>
+        <div class="formulario-registro">
+            <form action="" class="form-regis">
+                <p>Regístrate</p>
+                <div class="contenido-registro">
+
+                    <div class="columna1">
+                        <label for="">Tipo Documento
+
+                            <div class="columna2">
+                                <select class="input-sombra" name="" id="">
+                                    <option hidden selected>Escoja una opción</option>
+                                    <option value="1">Opción 1</option>
+                                    <option value="2">Opción 2</option>
+                                    <option value="3">Opción 3</option>
+                                </select>
+                                </div>
+                        </label>
+                    </div>
+                
+                        <div class="columna1">
+                            <label for="">Número de documento
+                                <div class="columna2">
+                                    <input class="input-sombra" type="number">
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="columna1">
+                            <label for="">Nombre
+                                <div class="columna2">
+                                    <input class="input-sombra" type="text">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="columna1">
+                        <label for="">Apellidos
+                            <div class="columna2">
+                                <input class="input-sombra" type="text">
+                            </div>
+                        </label>
+                    </div>
+
+
+                        <div class="columna1">
+                            <label for="">Fecha de nacimiento
+                                <div class="columna2">
+                                    <input class="input-sombra" type="date" name="" id="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="columna1">
+                            <label for="">Género
+                                <div class="genero">
+                                    <input type="radio" name="genero" id="" value="1"><label for=""> Mujer</label>
+                                    <input type="radio" name="genero" id="" value="2"><label for=""> Hombre</label>
+                                    <input type="radio" name="genero" id="" value="3"><label for=""> Otro</label>
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="columna1">
+                            <label for="">Email
+                                <div class="columna2">
+                                    <input class="input-sombra" type="email">
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="columna1">
+                            <label for="">Telefono de contacto
+                                <div class="columna2">
+                                    <input class="input-sombra" type="tel">
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="columna1">
+                            <label for="">País de origen
+                                <div class="columna2">
+                                    <select name="" id="">
+                                        <option value="1">Opción 1</option>
+                                        <option value="2">Opción 2</option>
+                                        <option value="3">Opción 3</option>
+                                    </select>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="columna1">
+                            <label for="">Foto
+                                <div class="columna2">
+                                    <input type="file" value="">
+                                </div>
+                            </label>
+
+                        </div>
+
+                        <div class="columna1">
+                            <label for="">Contraseña
+                                <div class="columna2">
+                                    <input class="input-sombra" type="Password">
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="columna1">
+
+                            <label for="">Confirmar contraseña
+                                <div class="columna2">
+                                    <input class="input-sombra" type="Password">
+                                </div>
+                            </label>
+                        </div>
+            </div>  
+           
+            <div class="aceptar">
+                
+                <a id="abrirModal"  href="#miModal"><input type="checkbox">Acepto Términos y Condiciones</a>
+         
+                
+          
+            </div>
+            <div id="miModal" class="modal">
+              <div class="modal-contenido">
+                
+                <div class="titulo-modal">
+                    
+                    <h2>Términos y Condiciones</h2>
+                </div>
+                <div class="contenido-modal">
+                <p>Estos Términos del Servicio reflejan la forma
+                    de trabajar de Google como empresa, las
+                    leyes por las que nos regimos y determinados
+                    aspectos que siempre hemos creido que son
+                    ciertos. Por ello, estos Términos del Servicio
+                    ayudan a definir la relación que tiene Google
+                    contigo cuando interactúas con nuestros
+                    servicios. Por ejemplo, estos términoss
+                    incluyen las siguientes secciones:
+                    Qué puedes esperar de nosotros, donde se
+                    describe cómo proporcionamos y
+                    desarrollamos nuestros servicios.
+                    Lo que esperamos de ti, donde se establecen
+                    ciertas reglas para utilizar nuestros servicios.</p>
+                    <div class="cerrar-modal">
+                        <button class="boton-modal">
+                        <a class="enviar" href="#">Aceptar</a>
+                        </button>
+                    </div>
+                </div>
+              </div>  
+            </div>
+                                <div class="boton-reg">
+                                    <Button class="enviar">Ingresar</Button>
+                                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------- FOOTER ------------------------------------------------>
+    <footer>
+        <div class="footer-columna1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero quod deleniti a aliquid
+                blanditiis
+                repellendus adipisci cumque ea fugit.</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="footer-columna2">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>AVENIDA CARRERA 8, #12A-42,BOGOTÁ D.C</p>
+            <i class="fa-solid fa-phone"></i>
+            <p>+57 601 4567899</p>
+        </div>
+        <div class="footer-columna3">
+            <p>Politica de privacidad</p>
+            <p>Politica de privacidad</p>
+        </div>
+        <div class="footer-columna4">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+    <script src="resources/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/a0f1830cab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
